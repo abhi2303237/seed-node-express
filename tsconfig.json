@@ -16,6 +16,7 @@
             ],
             "@services/*": ["src/services/*"],
             "@dto/*": ["src/DTO/*"],
+            "@utils/*": ["src/utils/*"],
             "@module/*": ["src/module/*"],
             "@middleware/*": ["src/middlewares/*"],
             "@config/*": ["src/config/*"]
