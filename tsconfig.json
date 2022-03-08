@@ -11,15 +11,24 @@
         "outDir": "dist",
         "baseUrl": ".",
         "paths": {
-            "*": [
-                "node_modules/*",
+            "@services/*": [
+                "src/services/*"
             ],
-            "@services/*": ["src/services/*"],
-            "@dto/*": ["src/DTO/*"],
-            "@utils/*": ["src/utils/*"],
-            "@module/*": ["src/module/*"],
-            "@middleware/*": ["src/middlewares/*"],
-            "@config/*": ["src/config/*"]
+            "@dto/*": [
+                "src/DTO/*"
+            ],
+            "@utils/*": [
+                "src/utils/*"
+            ],
+            "@module/*": [
+                "src/module/*"
+            ],
+            "@middlewares/*": [
+                "src/middlewares/*"
+            ],
+            "@config/*": [
+                "src/config/*"
+            ]
         }
     },
     "include": [
